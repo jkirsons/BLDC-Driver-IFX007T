@@ -1,8 +1,15 @@
-# BLDC-Driver-IFX007T
+# BLDC Driver
 
 Hardware: https://oshwlab.com/jkirsons/ifx007t-bldc-driver
 
-This example code is flashed to the board using VSCode & PlatformIO, using the Espressif 32 Platform, and SimpleFOC (2.1.0) Library
+Datasheets:
+* [IFX007T Driver](https://www.infineon.com/dgdl/Infineon-IFX007T-DS-v01_00-EN.pdf?fileId=5546d46265f064ff0166433484070b75)
+* [MA702 Encoder](https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702/document_id/3561)
+* [TPS560430 Buck](https://www.ti.com/lit/ds/symlink/tps560430.pdf)
+* [ESP32 Microcontroller](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf)
+* [SN65HVD230QDR CAN Tranceiver](https://www.ti.com/lit/ds/symlink/sn65hvd230q.pdf)
+
+This example code is flashed to the board using VSCode & PlatformIO, using the Espressif 32 Platform, and [SimpleFOC](https://simplefoc.com) (2.1.0) Library
 
 ![PCB Image](/images/PCB-Front.png)
 
