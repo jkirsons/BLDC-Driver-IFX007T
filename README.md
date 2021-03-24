@@ -9,7 +9,9 @@ Datasheets:
 * [ESP32 Microcontroller](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3_datasheet_en.pdf)
 * [SN65HVD230QDR CAN Tranceiver](https://www.ti.com/lit/ds/symlink/sn65hvd230q.pdf)
 
-This example code is flashed to the board using VSCode & PlatformIO, using the Espressif 32 Platform, and [SimpleFOC](https://simplefoc.com) (2.1.0) Library
+This example code is flashed to the board using VSCode & PlatformIO, using the Espressif 32 Platform, and [SimpleFOC](https://simplefoc.com) (2.1.0) Library.
+You will need a USB to UART dongle connected to the UART port to Flash/Monitor.
+CAN is not yet implemented in the test code.
 
 ![PCB Image](/images/PCB-Front.png)
 
